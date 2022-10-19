@@ -9,17 +9,17 @@
 #### Function
 What is ‘this’ keyword in JavaScript?
 	console.log(this); - window
-function() {
-	console.log(this);
-}
+	function() {
+		console.log(this);
+	}
 
-function eventHandler(event) {
-	console.log(this);
-}
+	function eventHandler(event) {
+		console.log(this);
+	}
 
 Explain the working of timers in JavaScript? Also elucidate the drawbacks of using the timer, if any?
-setTimeout() {}
-etInterval() {}
+	setTimeout() {}
+	setInterval() {}
 
 Explain the difference between “==” and “===”?
 What is the ‘Strict’ mode in JavaScript and how can it be enabled?
@@ -95,7 +95,7 @@ Modal
 HTML 5
 Canvas Vs SVG
 
-	1. Difference between var and let (Asked 90% times)
+1. Difference between var and let (Asked 90% times)
 2. What are promises and how are they better than callbacks ? (Asked 90% times)
 3. Polyfill for promise all
 4. Polyfill for bind
@@ -117,29 +117,26 @@ Input 2 - A = [6,2,5,0] B = [6,2,2,5] Output - False
 
 Some output based questions-
  // Code 1:
-function foo(){
- setTimeout(()=>{
-  console.log(a);
-  console.log(b);
- },100);
- var a = 2;
- let b = 12;
-}
-
-foo();
+	function foo(){
+	 setTimeout(()=>{
+	  console.log(a);
+	  console.log(b);
+	 },100);
+	 var a = 2;
+	 let b = 12;
+	}
+	foo();
 
 // Code 2:
-function foo(){
- for(var i = 0; i < 3; i++){
-  setTimeout(()=> console.log(i),2000);
- }
-}
-foo();
+	function foo(){
+	 for(var i = 0; i < 3; i++){
+	  setTimeout(()=> console.log(i),2000);
+	 }
+	}
+	foo();
 
 
-
-
-Design level questions
+### Design level questions
   Cross Browsers – Challenges – faced in safari MAC
  What is time line in chrome debugger?
 Latest technologies introduction – Gulp Grunt etc..
@@ -276,24 +273,20 @@ a { color: red; }
 
 ////////////////////////////////////////
 
-let person = 'A'
-if(true) {
-  let person = 'B';
-  if(true) {
-    console.log(person);
-  }
-}
+	let person = 'A'
+	if(true) {
+	  let person = 'B';
+	  if(true) {
+	    console.log(person);
+	  }
+	}
 
-console.log(person);
-
-////////////////////////////////////////
-
-function sum(a, b)  {
-  return a + b;
-}
-
-
-sumn(1, '2');
+	console.log(person);
 
 ////////////////////////////////////////
+
+	function sum(a, b)  {
+	  return a + b;
+	}
+	sumn(1, '2');
 
