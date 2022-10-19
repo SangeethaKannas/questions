@@ -1,13 +1,12 @@
-Write a program for the following: add(4)(3)(4)
-Write a fibonacci series program by limt input?
+### Javascript
+1. Write a program for the following: add(4)(3)(4)
+2. Write a fibonacci series program by limt input?
+3. What are JavaScript Data Types?
+4. What are all the methods in array & object?
+5. What is the use of isNaN function?
+6. What is negative infinity?
 
-Javascript:
-
-What are JavaScript Data Types?
-What are all the methods in array & object?
-What is the use of isNaN function?
-What is negative infinity?
-Function
+#### Function
 What is ‘this’ keyword in JavaScript?
 	console.log(this); - window
 function() {
